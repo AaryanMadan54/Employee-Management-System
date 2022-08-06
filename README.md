@@ -1,4 +1,4 @@
-# Employee System
+# Employee Management System
 
 **CRUD Web App utilizing the MVC Design pattern**
 
