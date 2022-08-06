@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Employee Management System</h1>
+    <p class="lead">Easy data management for HR professionals in organizations.</p>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>View Employee Details by clicking below (HR access only):</h2>
+        @Html.ActionLink("Display Employee Detail", "Index", "EmployeeDetails",null, new { @style = "font-size:larger;color:seagreen;" })
+    </div>
+</div>
+
